@@ -26,7 +26,7 @@ const works = [
     title: "Art Studio Website design",
     category: "ui/ux",
     heroImg:
-      "./art studio website/1.png",
+      "./art-studio-website/1.png",
   },
   {
     title: "Bakery Website",
@@ -119,9 +119,9 @@ function openWork(id) {
       "./kadak/Slide 16_9 - 61.png",
     ],
     "Art Studio Website design": [
-      "./art%20studio%20website/1.png",
-      "./art%20studio%20website/2.png",
-      "./art%20studio%20website/3.png",
+      "./art-studio-website/1.png",
+      "./art-studio-website/2.png",
+      "./art-studio-website/3.png",
     ],
     "Bakery Website": [
       "./bakery/1.png",
