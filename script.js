@@ -9,48 +9,48 @@ const works = [
   {
     title: "The Cost of Convenience",
     category: "Research",
-    heroImg: "/35.png",
+    heroImg: "./35.png",
   },
   {
     title: "Ethnographic Research on Sustainable Indian Fashion",
     category: "Research",
-    heroImg: "/Ethnographic Research.png",
+    heroImg: "./Ethnographic Research.png",
   },
   {
     title: "Kadak Chai",
     category: "graphic_design",
     heroImg:
-      "/kadak/1.png",
+      "./kadak/1.png",
   },
   {
     title: "Art Studio Website design",
     category: "ui/ux",
     heroImg:
-      "/art studio website/1.png",
+      "./art studio website/1.png",
   },
   {
     title: "Bakery Website",
     category: "ui/ux",
     heroImg:
-      "/bakery/1.png",
+      "./bakery/1.png",
   },
   {
     title: "BookMyshow Redesign",
     category: "ui/ux",
     heroImg:
-      "/bms/28.png",
+      "./bms/28.png",
   },
   {
     title: "Graphic Design Explorations",
     category: "graphic_design",
     heroImg:
-      "/gd/1.png",
+      "./gd/1.png",
   },
   {
     title: "Tactic: The Event planning app design",
     category: "ui/ux",
     heroImg:
-      "/tactic/20.png",
+      "./tactic/20.png",
   },
 ];
 
@@ -111,51 +111,51 @@ function openWork(id) {
   const w = works[id];
   const projectImages = {
     "Kadak Chai": [
-      "/kadak/1.png",
-      "/kadak/Slide 16_9 - 57.png",
-      "/kadak/Slide 16_9 - 58.png",
-      "/kadak/Slide 16_9 - 59.png",
-      "/kadak/Slide 16_9 - 60.png",
-      "/kadak/Slide 16_9 - 61.png",
+      "./kadak/1.png",
+      "./kadak/Slide 16_9 - 57.png",
+      "./kadak/Slide 16_9 - 58.png",
+      "./kadak/Slide 16_9 - 59.png",
+      "./kadak/Slide 16_9 - 60.png",
+      "./kadak/Slide 16_9 - 61.png",
     ],
     "Art Studio Website design": [
-      "/art%20studio%20website/1.png",
-      "/art%20studio%20website/2.png",
-      "/art%20studio%20website/3.png",
+      "./art%20studio%20website/1.png",
+      "./art%20studio%20website/2.png",
+      "./art%20studio%20website/3.png",
     ],
     "Bakery Website": [
-      "/bakery/1.png",
-      "/bakery/2.png",
-      "/bakery/3.png",
-      "/bakery/4.png",
-      "/bakery/5.png",
+      "./bakery/1.png",
+      "./bakery/2.png",
+      "./bakery/3.png",
+      "./bakery/4.png",
+      "./bakery/5.png",
     ],
     "BookMyshow Redesign": [
-      "/bms/28.png",
-      "/bms/29.png",
-      "/bms/30.png",
-      "/bms/31.png",
-      "/bms/32.png",
-      "/bms/33.png",
-      "/bms/35.png",
-      "/bms/36.png",
-      "/bms/37.png",
-      "/bms/38.png",
+      "./bms/28.png",
+      "./bms/29.png",
+      "./bms/30.png",
+      "./bms/31.png",
+      "./bms/32.png",
+      "./bms/33.png",
+      "./bms/35.png",
+      "./bms/36.png",
+      "./bms/37.png",
+      "./bms/38.png",
     ],
       "Graphic Design Explorations": [
-      "/gd/1.png",
-      "/gd/2.png",
-      "/gd/3.png",
+      "./gd/1.png",
+      "./gd/2.png",
+      "./gd/3.png",
     ],
       "Tactic: The Event planning app design": [
-      "/tactic/20.png",
-      "/tactic/21.png",
-      "/tactic/22.png",
-      "/tactic/23.png",
-      "/tactic/24.png",
-      "/tactic/25.png",
-      "/tactic/26.png",
-      "/tactic/27.png",
+      "./tactic/20.png",
+      "./tactic/21.png",
+      "./tactic/22.png",
+      "./tactic/23.png",
+      "./tactic/24.png",
+      "./tactic/25.png",
+      "./tactic/26.png",
+      "./tactic/27.png",
     ],
   };
   const images = projectImages[w.title.trim()];
