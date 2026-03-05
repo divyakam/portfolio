@@ -19,38 +19,32 @@ const works = [
   {
     title: "Kadak Chai",
     category: "graphic_design",
-    heroImg:
-      "./kadak/1.png",
+    heroImg: "./kadak/1.png",
   },
   {
     title: "Art Studio Website design",
     category: "ui/ux",
-    heroImg:
-      "./art-studio-website/1.png",
+    heroImg: "./art-studio-website/1.png",
   },
   {
     title: "Bakery Website",
     category: "ui/ux",
-    heroImg:
-      "./bakery/1.png",
+    heroImg: "./bakery/1.png",
   },
   {
     title: "BookMyshow Redesign",
     category: "ui/ux",
-    heroImg:
-      "./bms/28.png",
+    heroImg: "./bms/28.png",
   },
   {
     title: "Graphic Design Explorations",
     category: "graphic_design",
-    heroImg:
-      "./gd/1.png",
+    heroImg: "./gd/1.png",
   },
   {
     title: "Tactic: The Event planning app design",
     category: "ui/ux",
-    heroImg:
-      "./tactic/20.png",
+    heroImg: "./tactic/20.png",
   },
 ];
 
@@ -142,12 +136,8 @@ function openWork(id) {
       "./bms/37.png",
       "./bms/38.png",
     ],
-      "Graphic Design Explorations": [
-      "./gd/1.png",
-      "./gd/2.png",
-      "./gd/3.png",
-    ],
-      "Tactic: The Event planning app design": [
+    "Graphic Design Explorations": ["./gd/1.png", "./gd/2.png", "./gd/3.png"],
+    "Tactic: The Event planning app design": [
       "./tactic/20.png",
       "./tactic/21.png",
       "./tactic/22.png",
@@ -334,5 +324,3 @@ if (window.matchMedia("(pointer: fine)").matches) {
       });
     });
 }
-
-
